@@ -290,40 +290,40 @@ Capacitor          | C81       | 1.5 nF, MLCC, 5 mm Pitch                    | 1
 Capacitor          | C82 - C84 | 330 pF, MLCC, 5 mm Pitch                    | 3        | Mouser [810-FG28C0G1H331JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H331JNT0)
 Capacitor          | C85       | 47 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G1H470JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H470JNT0)
 Capacitor          | C86, C87  | 33 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H330JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H330JNT0)
-Capacitor          | C88 - C90 | 30 pF, Trim Capactiors, 5 mm Pitch          | 3        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015). Note: Can be replaced with Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0) if color subcarrier frequency tunning is not required.
+Capacitor          | C88 - C90 | 30 pF, Trim Capactiors, 5 mm Pitch          | 3        | Mouser [659-GKG30015](https://www.mouser.com/ProductDetail/659-GKG30015). Note: Can be replaced with Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0) if color subcarrier frequency tunning is not required. DigiKey [2447-GKG30015-ND](https://www.digikey.com/en/products/detail/ew-electronics/GKG30015/11689271) (Mouser doesn't stock them anymore).
 Capacitor          | C91       | 27 pF, MLCC, 5 mm Pitch                     | 1        | Mouser [810-FG28C0G2A270JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G2A270JNT0). Note C91 should be 18 pF for PAL support.
 Capacitor          | C92, C93  | 22 pF, MLCC, 5 mm Pitch                     | 2        | Mouser [810-FG28C0G1H220JNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H220JNT0)
 Capacitor          | C94       | 4.7 pF, MLCC, 5 mm Pitch                    | 1        | Mouser [810-FG28C0G1H4R7CNT0](https://www.mouser.com/ProductDetail/810-FG28C0G1H4R7CNT0)
-Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 10 pin SIP                 | 4        | Mouser [266-10K-RC](https://www.mouser.com/ProductDetail/266-10K-RC)
-Resistor Array     | RR5 - RR7 | 4.7 kohm, bussed, 10 pin SIP                | 3        | Mouser [266-4.7K-RC](https://www.mouser.com/ProductDetail/266-4.7K-RC)
-Resistor Array     | RR8, RR10 | 4.7 kohm, bussed, 6 pin SIP                 | 1 (2)    | Mouser [264-4.7K-RC](https://www.mouser.com/ProductDetail/264-4.7K-RC). Note RR10 is optional - Memory pager size workaround.
-Resistor Array     | RR9       | 470 ohm, bussed, 6 pin SIP                  | 1        | Mouser [264-470-RC](https://www.mouser.com/ProductDetail/264-470-RC)
-Resistor           | R1        | 1 Mohm, axial                               | 1        | Mouser [291-1M-RC](https://www.mouser.com/ProductDetail/291-1M-RC). Note R1 is optional - PAL support.
-Resistor           | R2, R3    | 470 kohm, axial                             | 2        | Mouser [291-470K-RC](https://www.mouser.com/ProductDetail/291-470K-RC)
-Resistor           | R4        | 220 kohm, axial                             | 1        | Mouser [291-220K-RC](https://www.mouser.com/ProductDetail/291-220K-RC)
-Resistor           | R5, R6    | 100 kohm, axial                             | 2        | Mouser [291-100K-RC](https://www.mouser.com/ProductDetail/291-100K-RC)
-Resistor           | R7, R8    | 47 kohm, axial                              | 2        | Mouser [291-47K-RC](https://www.mouser.com/ProductDetail/291-47K-RC)
+Resistor Array     | RR1 - RR4 | 10 kohm, bussed, 10 pin SIP                 | 4        | Mouser [652-4610X-1LF-10K](https://www.mouser.com/ProductDetail/652-4610X-1LF-10K) or Mouser [652-4610X-AP1-103LF](https://www.mouser.com/ProductDetail/652-4610X-AP1-103LF)
+Resistor Array     | RR5 - RR7 | 4.7 kohm, bussed, 10 pin SIP                | 3        | Mouser [652-4610X-1LF-4.7K](https://www.mouser.com/ProductDetail/4610X-101-472LF) or Mouser [652-4610X-AP1-472LF](https://www.mouser.com/ProductDetail/652-4610X-AP1-472LF)
+Resistor Array     | RR8, RR10 | 4.7 kohm, bussed, 6 pin SIP                 | 1 (2)    | Mouser [652-4606X-1LF-4.7K](https://www.mouser.com/ProductDetail/652-4606X-1LF-4.7K) or Mouser [652-4606X-AP1-472LF](https://www.mouser.com/ProductDetail/652-4606X-AP1-472LF). Note RR10 is optional - Memory pager size workaround.
+Resistor Array     | RR9       | 470 ohm, bussed, 6 pin SIP                  | 1        | Mouser [652-4606X-1LF-470](https://www.mouser.com/ProductDetail/652-4606X-1LF-470) or Mouser [652-4606X-AP1-471LF](https://www.mouser.com/ProductDetail/652-4606X-AP1-471LF)
+Resistor           | R1        | 1 Mohm, axial                               | 1        | Mouser [603-MFR-25FBF52-1M](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1M). Note R1 is optional - PAL support.
+Resistor           | R2, R3    | 470 kohm, axial                             | 2        | Mouser [603-MFR-25FBF52-470K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-470K)
+Resistor           | R4        | 220 kohm, axial                             | 1        | Mouser [603-MFR-25FBF52-220K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-220K)
+Resistor           | R5, R6    | 100 kohm, axial                             | 2        | Mouser [603-MFR-25FBF52-100K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100K)
+Resistor           | R7, R8    | 47 kohm, axial                              | 2        | Mouser [603-MFR-25FBF52-47K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-47K)
 Resistor           | R9, R10   | 20 kohm, 1% tolerance, axial                | 2        | Mouser [603-MFR-25FBF52-20K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-20K). Note R9 should be 16 kohm, 1% for PAL support.
-Resistor           | R11 - R14 | 10 kohm, axial                              | 4        | Mouser [291-10K-RC](https://www.mouser.com/ProductDetail/291-10K-RC). Note R11, R12 are optional - cassette recorder support.  Note R14 is optional - RGB output support.
-Resistor           | R15       | 5.6 kohm, axial                             | 1        | Mouser [291-5.6K-RC](https://www.mouser.com/ProductDetail/291-5.6K-RC)
-Resistor           | R16 - R22 | 4.7 kohm, axial                             | 7        | Mouser [291-4.7K-RC](https://www.mouser.com/ProductDetail/291-4.7K-RC). Note R18 - R20 are optional - cassette recorder support.
-Resistor           | R23, R24  | 2.7 kohm, axial                             | 2        | Mouser [291-2.7K-RC](https://www.mouser.com/ProductDetail/291-2.7K-RC). Note R23, R24 are optional - cassette recorder support.
-Resistor           | R25, R26  | 2.2 kohm, axial                             | 2        | Mouser [291-2.2K-RC](https://www.mouser.com/ProductDetail/291-2.2K-RC)
-Resistor           | R27 - R33 | 1 kohm, axial                               | 7        | Mouser [291-1K-RC](https://www.mouser.com/ProductDetail/291-1K-RC). Note R31, R32 are optional - cassette recorder support. Note R33 is optional - RGB output support.
-Resistor           | R34       | 470 ohm, axial                              | 1        | Mouser [291-470-RC](https://www.mouser.com/ProductDetail/291-470-RC) 
-Resistor           | R35       | 180 ohm, axial                              | 1        | Mouser [291-180-RC](https://www.mouser.com/ProductDetail/291-180-RC). Note R35 is optional - RGB output support.
-Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [291-120-RC](https://www.mouser.com/ProductDetail/291-120-RC). Note R36 is optional - RGB output support.
-Resistor           | R37 - R42 | 100 ohm, axial                              | 6        | Mouser [291-100-RC](https://www.mouser.com/ProductDetail/291-100-RC). Note R42 is optional - cassette recorder support.
-Resistor           | R43 - R48 | 75 ohm, axial                               | 6        | Mouser [291-75-RC](https://www.mouser.com/ProductDetail/291-75-RC). Note R46 - R48 are optional - RGB output support.
-Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
+Resistor           | R11 - R14 | 10 kohm, axial                              | 4        | Mouser [603-MFR-25FBF52-10K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-10K). Note R11, R12 are optional - cassette recorder support.  Note R14 is optional - RGB output support.
+Resistor           | R15       | 5.6 kohm, axial                             | 1        | Mouser [603-MFR-25FBF52-5K6](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-5K6)
+Resistor           | R16 - R22 | 4.7 kohm, axial                             | 7        | Mouser [603-MFR-25FBF52-4K7](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-4K7). Note R18 - R20 are optional - cassette recorder support.
+Resistor           | R23, R24  | 2.7 kohm, axial                             | 2        | Mouser [603-MFR-25FBF52-2K7](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-2K7). Note R23, R24 are optional - cassette recorder support.
+Resistor           | R25, R26  | 2.2 kohm, axial                             | 2        | Mouser [603-MFR-25FBF52-2K2](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-2K2)
+Resistor           | R27 - R33 | 1 kohm, axial                               | 7        | Mouser [603-MFR-25FBF52-1K](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-1K). Note R31, R32 are optional - cassette recorder support. Note R33 is optional - RGB output support.
+Resistor           | R34       | 470 ohm, axial                              | 1        | Mouser [603-MFR-25FBF52-470R](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-470R) 
+Resistor           | R35       | 180 ohm, axial                              | 1        | Mouser [603-MFR-25FBF52-180R](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-180R). Note R35 is optional - RGB output support.
+Resistor           | R36       | 120 ohm, axial                              | 1        | Mouser [603-MFR-25FBF52-120R](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-120R). Note R36 is optional - RGB output support.
+Resistor           | R37 - R42 | 100 ohm, axial                              | 6        | Mouser [603-MFR-25FBF52-100R](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-100R). Note R42 is optional - cassette recorder support.
+Resistor           | R43 - R48 | 75 ohm, axial                               | 6        | Mouser [603-MFR-25FBF52-75R](https://www.mouser.com/ProductDetail/603-MFR-25FBF52-75R). Note R46 - R48 are optional - RGB output support.
+Relay              | RY1       | 5V SPDT relay                               | 1        | Mouser [653-G5V-1-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-DC5) or Mouser [653-G5V-1-T90-DC5](https://www.mouser.com/ProductDetail/653-G5V-1-T90-DC5)
 Inductor           | L1        | 68 uH, axial                                | 1        | Mouser [542-78F680-RC](https://www.mouser.com/ProductDetail/542-78F680-RC)
 Inductor           | L2, L3    | 5.6 uH, axial                               | 2        | Mouser [542-78F5R6J-RC](https://www.mouser.com/ProductDetail/542-78F5R6J-RC)
-Diode              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148](https://www.mouser.com/ProductDetail/512-1N4148). Note D1 is optional - cassette recorder support.
-Transistor         | Q1, Q2    | PN2907A                                     | 2        | Mouser [512-PN2907ATF](https://www.mouser.com/ProductDetail/512-PN2907ATF). Note Q1 is optional - cassette recorder support.
+Diode              | D1        | 1N4148                                      | 1        | Mouser [512-1N4148TR](https://www.mouser.com/ProductDetail/512-1N4148TR). Note D1 is optional - cassette recorder support.
+Transistor         | Q1, Q2    | PN2907A                                     | 2        | Mouser [512-PN2907ATF](https://www.mouser.com/ProductDetail/512-PN2907ATF). Note Q1 is optional - cassette recorder support; Q2 is required for V9938 VDP only
 Crystal            | Y1        | 21.477270 MHz                               | 1        | Mouser [695-HC49US-214-U](https://www.mouser.com/ProductDetail/695-HC49US-214-U)
 Crystal            | Y2        | 32768 Hz                                    | 1        | Mouser [815-AB38T-32.768KHZ](https://www.mouser.com/ProductDetail/815-AB38T-32.768KHZ)
 Crystal            | Y3        | 4.433618 MHz                                | 1        | Mouser [520-HCU443-20X](https://www.mouser.com/ProductDetail/520-HCU443-20X). Note Y3 is optional - PAL support.
-Polyfuse           | F1        | 750 mA, radial, 5 mm pitch                  | 1        | Mouser [576-06R075BU](https://www.mouser.com/ProductDetail/576-06R075BU)
+Polyfuse           | F1        | 750 mA, radial, 5 mm pitch                  | 1        | Mouser [650-RUSBF075-2](https://www.mouser.com/ProductDetail/650-RUSBF075-2)
 Connector          | J1        | DC Power Jack, 2mm                          | 1        | Mouser [806-KLDX-0202-A](https://www.mouser.com/ProductDetail/806-KLDX-0202-A)
 Connector          | J2        | RCA Phono connector, Yellow                 | 1        | Mouser [490-RCJ-014](https://www.mouser.com/ProductDetail/490-RCJ-014)
 Connector          | J2        | RCA Phono connector, White                  | 1        | Mouser [490-RCJ-013](https://www.mouser.com/ProductDetail/490-RCJ-013)
@@ -344,9 +344,11 @@ Battery Holder     | BT1       | CR2032 Battery holder                       | 1
 Battery            | BT1       | CR2032 Battery                              | 1        | Mouser [614-CR2032-200](https://www.mouser.com/ProductDetail/614-CR2032-200), [658-CR2032](https://www.mouser.com/ProductDetail/658-CR2032). Note: Not included in Mouser Project due to shipping restrictions.
 IC Socket          | U1, U2, U4 | 40 pin DIP                                 | 3        | Mouser [517-4840-6000-CP](https://www.mouser.com/ProductDetail/517-4840-6000-CP)
 IC Socket          | U3        | 64 pin DIP                                  | 1        | eBay
-IC Socket          | U3        | 64 pin DIP (pin strips, alternate)          | 4        | Digikey [317-87-121-41-005101] (https://www.digikey.com/product-detail/en/preci-dip/317-87-121-41-005101/1212-1133-ND/3757383)
+IC Socket          | U3        | 64 pin DIP (alternate)                      | 1        | DigiKey [117-87-764-41-005101](https://www.digikey.com/en/products/detail/preci-dip/117-87-764-41-005101/3757318)
+IC Socket          | U3        | 64 pin DIP (pin strips, alternate)          | 4        | DigiKey [317-87-121-41-005101](https://www.digikey.com/en/products/detail/preci-dip/317-87-121-41-005101/3757383)
 IC Socket          | U6, U7    | 32 pin DIP                                  | 2        | Mouser [517-4832-6000-CP](https://www.mouser.com/ProductDetail/517-4832-6000-CP)
 IC Socket          | U47       | 24 pin DIP, 400 mil spacing                 | 1        | Mouser [517-4824-6000-CP](https://www.mouser.com/ProductDetail/517-4824-6000-CP) or [517-4824-3000-CP](https://www.mouser.com/ProductDetail/517-4824-3000-CP). Note: Cut the socket in the middle. If using a socket with 600 mil spacing, remove excess material. Alternatively, solder U47 (CXA1645P) without using a socket.
+IC Socket          | U47       | 24 pin DIP, 400 mil spacing (alternate)     | 1        | DigiKey [110-93-424-41-001000](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/110-93-424-41-001000/81797)
 IC Socket          | U12 - U14, U19 - U26 | 20 pin DIP                       | 11       | Mouser [517-4820-3000-CP](https://www.mouser.com/ProductDetail/517-4820-3000-CP)
 IC Socket          | U5, U8 - U11 | 18 pin DIP                               | 5        | Mouser [517-4818-3000-CP](https://www.mouser.com/ProductDetail/517-4818-3000-CP)
 IC Socket          | U15 - U18, U27 - U32, U46 | 16 pin DIP                  | 11       | Mouser [517-4816-3000-CP](https://www.mouser.com/ProductDetail/517-4816-3000-CP)
@@ -357,15 +359,22 @@ IC Socket          | U48, U49  | 8 pin DIP                                   | 2
 
 #### NTSC Video Standard Support
 The Omega Main Board can be configured to support either NTSC (60 Hz) or PAL (50 Hz) video standard. To support NTSC standard the board should be configured as follows:
-* Do not install the following components (they are required for PAL support only):
-  * Crystal Oscillator: Y3
-  * Capacitors: C43, C90, C93
-  * Resistors: R1, R30; Integrated Circuit: U43
-  * Note: C43 and U43 also used for V9938 VDP CSYNC level converer. They must be installed if V9938 VDP is used
 * Install a wire links JP5 and JP6 in 1-2 position for NTSC standard support
+* **Do not install** the following components, they are required for PAL support only:
+  * Crystal Oscillator: Y3
+  * Capacitors: C90, C93
+  * Resistors: R1, R30
+* If using V9958 VDP also **do not install** the following components:
+  * Capacitor: C43
+  * Integrated Circuit: U43
+* If using V9938 VDP **do install** the following components, they are used for V9938 VDP CSYNC level converter:
+  * Capacitor: C43
+  * Integrated Circuit: U43
+  * Install a wire link instead of C93 to avoid floating inputs on U43
 
 #### PAL Video Standard Support
 To support PAL standard the board should be configured as follows:
+* Install a wire links JP5 and JP6 in 2-3 position for PAL standard support
 * Install the following components:
   * Crystal Oscillator: Y3
   * Capacitors: C43, C90, C93
@@ -374,10 +383,9 @@ To support PAL standard the board should be configured as follows:
 * Replace the following components:
   * R9 use 16 kohm resistor (instead of 20 kohm)
   * C91 use 18 pF capacitor (instead of 27 pF)
-* Install a wire links JP5 and JP6 in 2-3 position for PAL standard support
 
 #### V9958 VDP Support
-The Omega Main Baord can be configured to support either V9958 VDP (recommended) or V9938 VDP. To support V9958 VDP the board should be configured as follows:
+The Omega Main Board can be configured to support either V9958 VDP (recommended) or V9938 VDP. To support V9958 VDP the board should be configured as follows:
 * Do not install the following components:
   * Transistor: Q2
   * Capacitor: C43
@@ -392,7 +400,8 @@ To support V9938 VDP the board should be configured as follows:
   * Capacitor: C43
   * Integrated Circuit: U43
 * Install a wire links JP3 and JP4 in 1-2 position for V9938 VDP.
-* *Warning: Incorrect setting of JP3 will damage VDP*
+* If using NTSC video standard install a wire link instead of C93 to avoid floating inputs on U43
+* **Warning: Incorrect setting of JP3 will damage VDP**
   
 ### Input / Output Ports
 
